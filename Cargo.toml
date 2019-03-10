@@ -3,4 +3,6 @@ name = "x12"
 version = "0.1.0"
 authors = ["Jon Hartwell <jon@dontbreakthebuild.com>"]
 
+[lib]
+
 [dependencies]
