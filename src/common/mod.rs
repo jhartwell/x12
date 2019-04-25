@@ -6,6 +6,16 @@ pub struct Segment {
     pub usage: Usage,
 }
 
+impl Segment {
+    pub fn create(name: String, usage: Usage) -> Segment {
+        Segment {
+            name: Element { value: name, element_type: ElementType::SegmentName()},
+            elements: vec![],
+            usage,
+        }
+    }
+}
+
 impl Index<usize> for Segment {
     type Output = Element;
 
