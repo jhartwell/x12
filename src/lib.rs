@@ -2,13 +2,6 @@ mod common;
 mod ins;
 mod mis;
 
-use ins::TwoSevenSeven;
-use mis::NineNineNine;
-
-fn temp() {
-    let a = TwoSevenSeven {};
-    println!("{:?}", a);
-}
 
 #[cfg(test)]
 mod tests {

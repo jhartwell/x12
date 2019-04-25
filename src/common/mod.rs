@@ -1,7 +1,7 @@
 use std::ops::Index;
 
 pub struct Segment {
-    pub name: String,
+    pub name: Element,
     pub elements: Vec<Element>,
     pub usage: Usage,
 }
@@ -11,10 +11,7 @@ impl Index<usize> for Segment {
 
     fn index(&self, index: usize) -> &Element {
         match index {
-            0 => &Element {
-                value: self.name,
-                element_type: ElementType::SegmentName(),
-            },
+            0 => &self.name,
             i => {
                 if i > self.elements.len() {
                     panic!("Out of bounds");
