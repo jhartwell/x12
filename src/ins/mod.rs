@@ -22,9 +22,6 @@ pub struct TwoEightEight {}
 pub struct ThreeSixTwo {}
 pub struct FiveZeroZero {}
 pub struct EightTwoZero {}
-pub struct EightThreeFour {}
-pub struct EightThreeFive {}
-pub struct EightThreeSeven {}
 pub struct NineTwoFour {}
 pub struct NineTwoFive {}
 pub struct NineTwoSix {}
