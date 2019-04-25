@@ -2,9 +2,6 @@
 name = "x12"
 version = "0.1.0"
 authors = ["Jon Hartwell <jon@dontbreakthebuild.com>"]
-description = "Rust library for parsing X12"
-license = "MIT"
-
-[lib]
+edition = "2018"
 
 [dependencies]
