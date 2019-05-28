@@ -1,0 +1,9 @@
+[package]
+name = "x12_config"
+version = "0.1.0"
+authors = ["Jon Hartwell <jhartwell@evolenthealth.com>"]
+edition = "2018"
+
+[dependencies]
+toml = "0.5.1"
+serde = { version = "1.0", features = ["derive"]}
